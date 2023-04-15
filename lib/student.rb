@@ -43,6 +43,7 @@ class Student
     student = Student.new(name, grade)
     student.save
   end
+  
 
   def self.all
     sql = "SELECT * FROM students" 
